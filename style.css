@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div {
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+.choicesContainer {
+    display: flex;
+    gap: 50px;
+}
+.choicesContainer button {
+    border: none;
+    font-size: 7.5rem;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.choicesContainer button:hover {
+    background-color: lightgray;
+}
+
+#resultDisplay {
+    font-size: 55px;
+}
+
+.greenText {
+    color: green;
+}
+
+.redText {
+    color: red
+}

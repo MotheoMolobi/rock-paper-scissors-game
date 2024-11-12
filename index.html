@@ -4,8 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>ROCK PAPER SCISSORS</h1>
+
+    <div class="choicesContainer">
+        <button onclick="playGame('rock')">🪨</button>
+        <button onclick="playGame('paper')">📄</button>
+        <button onclick="playGame('scissors')">✂️</button>
+    </div>
+
+    <div id="playerDisplay">
+        PLAYER:
+    </div>
+
+    <div id="computerDisplay">
+        COMPUTER:
+    </div>
+
+    <div id="resultDisplay">
+    </div>
+
+    <div>
+        <P id="displayPlayerScore">PLAYER SCORE:</P>
+        <P id="displayComputerScore">COMPUTER SCORE:</P>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
