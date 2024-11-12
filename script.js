@@ -48,7 +48,6 @@ function playGame(playerChoice) {
         result = "You lose";
         computerScore++;
     }
-
     // Update the display elements
     updateResultDisplay(result);
     displayPlayerScore.textContent = `PLAYER SCORE: ${playerScore}`;
