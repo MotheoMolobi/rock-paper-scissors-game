@@ -1,3 +1,6 @@
+* {
+    
+}
 body {
     display: flex;
     flex-direction: column;
@@ -14,8 +17,9 @@ div {
 .choicesContainer button {
     border: none;
     font-size: 7.5rem;
-    background-color: white;
-    border-radius: 50%;
+    background-color: rgb(9, 215, 215) ;
+    border-radius: 95%;
+    min-width: 200px;
 }
 
 .choicesContainer button:hover {
@@ -27,7 +31,7 @@ div {
 }
 
 .greenText {
-    color: green;
+    color: lightgreen;
 }
 
 .redText {
